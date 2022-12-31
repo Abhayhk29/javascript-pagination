@@ -1,0 +1,54 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.flex{
+    display: flex;
+}
+
+.page-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid lightseagreen;
+    background-color: darkseagreen;
+}
+
+.pagination-block{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.data-element {
+    border: 2px solid white;
+    width: 100px;
+    text-align: center;
+    background-color: whitesmoke;
+    margin-top: 10px;
+}
+
+.pag-button{
+    border: 1px solid black !important;
+    margin-right: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.page-number-row{
+    background-color: lightgrey;
+    padding: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+.pagination-block button{
+    border: 0;
+}
+
+.opacity {
+    opacity: 0.5;
+}
